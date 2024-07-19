@@ -5,7 +5,7 @@ html {
 
 body {
     display: flex;
-    background-image: linear-gradient(blue, purple);
+    background-image: linear-gradient(black, rgb(0,0,50));
     overflow: hidden;
     height: 99%;
     width: 100%;
@@ -17,19 +17,22 @@ body {
     display: flex;
     flex-direction: column;
     width: 30%;
-    height: 25%;
+    height: 15%;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to top, grey, white);
-    
+    background-image: linear-gradient(rgb(200, 200, 200), rgb(75,75,255));
+    border: 2px, solid, rgb(255,255,255, 0.4);
 }
 
 p, h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    text-shadow: 2px 2px 3px gray;
+    text-shadow: 1px 1px 3px gray;
     margin: 3px;
+    text-align: center;
 }
+
+
 
 
